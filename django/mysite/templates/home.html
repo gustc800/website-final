@@ -1,0 +1,30 @@
+{% extends 'base.html' %} <!-- keeping the links at the top -->
+{% load static %} <!-- loading the css -->
+{% load staticfiles %}
+
+
+
+
+{% block content %}
+
+<center> <!-- i couldnt get the css to work for the longest time so i did some html formatting --> 
+<h1> CAKE </h1>
+<h5> Carlie Gustafson </h5>
+
+<!-- loading the images saved in the css folder and adding a 30px border between them -->
+<img src="{% static "css/images/image1.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image8.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image4.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image9.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image7.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image2.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image11.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image13.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image3.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image10.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image5.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image6.jpg" %}" alt="My image" vspace="30">
+<img src="{% static "css/images/image12.jpg" %}" alt="My image" vspace="30">
+</center>
+
+{% endblock %}

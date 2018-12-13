@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load staticfiles %}
+{% block content %}
+
+<center><!-- i couldnt get the css to work for the longest time so i did some html formatting --> 
+<h1> ABOUT THIS PROJECT </h1>
+
+
+
+<p> For this webiste, I wanted to create a site that could be used to highlight and share one collection of work or series. I figured that I just wanted to have two pages; one for the visual aspects of the collection and one for the artist statment. I am very happy with how this site turned out now that I have finally figured out how to get the CSS to work as well as the images. <p> 
+
+
+<!-- loading the images saved in the css folder -->
+	<img src="{% static "css/images/example2.jpg" %}" alt="My image">
+</center>
+
+
+
+{% endblock %}
